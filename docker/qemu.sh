@@ -240,6 +240,7 @@ main() {
     ./configure \
         --disable-kvm \
         --disable-vnc \
+        --disable-gio \
         --disable-guest-agent \
         --enable-linux-user \
         --static \

@@ -242,7 +242,6 @@ main() {
         "libgmp10:${arch}" \
         "libc6:${arch}" \
         "linux-image-${kernel}:${arch}" \
-        ncurses-base"${ncurses}" \
         "zlib1g:${arch}"
 
     if [[ "${arch}" != "${dpkg_arch}" ]]; then
